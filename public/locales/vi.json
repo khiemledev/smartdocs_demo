@@ -1,0 +1,117 @@
+{
+  "common": {
+    "home": "Trang chủ",
+    "backToHome": "Quay lại trang chủ",
+    "clear": "Xoá",
+    "preview": "Xem trước",
+    "download": "Tải xuống",
+    "open": "Mở",
+    "browse": "Chọn tệp",
+    "selectFile": "Chọn tệp để xem trước",
+    "processing": "Đang xử lý...",
+    "completed": "Hoàn thành",
+    "failed": "Thất bại",
+    "error": "Lỗi",
+    "success": "Thành công"
+  },
+  "header": {
+    "title": "UIT-AIClub SmartExtract",
+    "subtitle": "AI-Powered Document Processing Demo"
+  },
+  "homepage": {
+    "heroTitle": "Chuyển đổi cách xử lý tài liệu của bạn",
+    "heroSubtitle": "Sử dụng AI để trích xuất thông tin, chuyển đổi định dạng và cải thiện tài liệu PDF của bạn với công nghệ tiên tiến.",
+    "tryNow": "Thử ngay"
+  },
+  "features": {
+    "extraction": {
+      "title": "Trích xuất thông tin",
+      "description": "Sử dụng AI để trích xuất thông tin từ tài liệu PDF"
+    },
+    "conversion": {
+      "title": "Chuyển đổi định dạng", 
+      "description": "Chuyển đổi tài liệu PDF sang định dạng Word, Excel, và văn bản thuần"
+    },
+    "textlayer": {
+      "title": "Tạo lớp văn bản",
+      "description": "Tạo lớp văn bản tìm kiếm được bằng cách sử dụng OCR"
+    }
+  },
+  "fileUpload": {
+    "title": "Tải lên tệp",
+    "dropText": "Kéo và thả tệp PDF của bạn vào đây hoặc nhấn để tải lên",
+    "browseFiles": "Tải lên tệp"
+  },
+  "sampleFiles": {
+    "title": "Chọn tệp mẫu",
+    "placeholder": "Chọn tệp mẫu"
+  },
+  "extraction": {
+    "pageTitle": "Trích xuất thông tin",
+    "pageDescription": "Sử dụng AI để trích xuất thông tin từ tài liệu PDF",
+    "cardTitle": "Trích xuất thông tin",
+    "cardDescription": "Sử dụng AI để trích xuất thông tin từ tài liệu PDF",
+    "extractButton": "Trích xuất thông tin",
+    "extracting": "Đang trích xuất thông tin",
+    "startingExtraction": "Đang bắt đầu trích xuất thông tin",
+    "resultsTitle": "Kết quả trích xuất",
+    "originalPdfPreview": "Tệp PDF gốc",
+    "extractedInformation": "Thông tin đã trích xuất",
+    "confidence": "Độ tin cậy",
+    "downloadResults": "Tải xuống kết quả",
+    "threshold": "Threshold",
+    "thresholdDescription": "Ngưỡng để xác định thông tin có được trích xuất hay không",
+    "useCorrector": "Sử dụng bộ sửa lỗi",
+    "useCorrectorDescription": "Sử dụng bộ sửa lỗi để cải thiện độ chính xác của kết quả trích xuất",
+    "pleaseSelectFile": "Vui lòng chọn tệp"
+  },
+  "conversion": {
+    "pageTitle": "Chuyển đổi định dạng",
+    "pageDescription": "Chuyển đổi tài liệu PDF sang định dạng Word, Excel, và văn bản thuần",
+    "cardTitle": "Chuyển đổi định dạng",
+    "cardDescription": "Chuyển đổi tài liệu PDF sang định dạng Word, Excel, và văn bản thuần",
+    "convertButton": "Chuyển đổi định dạng",
+    "converting": "Đang chuyển đổi định dạng",
+    "startingConversion": "Đang bắt đầu chuyển đổi định dạng",
+    "originalPdfPreview": "Tệp PDF gốc",
+    "convertedWordPreview": "Tệp Word đã chuyển đổi",
+    "wordDocumentPreview": "Tệp Word đã chuyển đổi",
+    "conversionCompleted": "Chuyển đổi định dạng hoàn thành",
+    "wordDocumentReady": "Tệp Word đã sẵn sàng",
+    "converted": "Đã chuyển đổi",
+    "pleaseSelectFile": "Vui lòng chọn tệp"
+  },
+  "textlayer": {
+    "pageTitle": "Tạo lớp văn bản",
+    "pageDescription": "Tạo lớp văn bản tìm kiếm được bằng cách sử dụng OCR",
+    "cardTitle": "Tạo lớp văn bản",
+    "cardDescription": "Tạo lớp văn bản tìm kiếm được bằng cách sử dụng OCR",
+    "addTextLayerButton": "Thêm lớp văn bản",
+    "addingTextLayer": "Đang thêm lớp văn bản",
+    "startingProcessing": "Đang bắt đầu xử lý",
+    "originalPdfPreview": "Tệp PDF gốc",
+    "enhancedPdfPreview": "Tệp PDF đã được cải thiện",
+    "enhancedPdfWillAppear": "Tệp PDF đã được cải thiện sẽ xuất hiện sau khi xử lý hoàn tất",
+    "before": "Trước",
+    "after": "Sau",
+    "originalPdf": "Tệp PDF gốc",
+    "enhancedPdf": "Tệp PDF đã được cải thiện",
+    "imageBasedContent": "Nội dung dựa trên hình ảnh",
+    "searchableTextLayer": "Lớp văn bản tìm kiếm",
+    "downloadEnhancedPdf": "Tải xuống tệp PDF đã được cải thiện",
+    "searchable": "Tìm kiếm được",
+    "ocrComplete": "OCR hoàn thành",
+    "pleaseSelectFile": "Vui lòng chọn tệp"
+  },
+  "footer": {
+    "copyright": "Bản quyền © 2025 UIT-AIClub"
+  },
+  "errors": {
+    "fileUploadFailed": "Tải lên tệp thất bại",
+    "processingFailed": "Xử lý thất bại",
+    "noTaskId": "Không có Task ID",
+    "statusCheckFailed": "Kiểm tra trạng thái thất bại",
+    "browserNotSupported": "Trình duyệt không được hỗ trợ",
+    "previewNotAvailable": "Xem trước không khả dụng"
+  }
+} 

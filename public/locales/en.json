@@ -1,0 +1,117 @@
+{
+  "common": {
+    "home": "Home",
+    "backToHome": "Back to Home",
+    "clear": "Clear",
+    "preview": "Preview",
+    "download": "Download",
+    "open": "Open",
+    "browse": "Browse Files",
+    "selectFile": "Select a file to preview",
+    "processing": "Processing...",
+    "completed": "Completed",
+    "failed": "Failed",
+    "error": "Error",
+    "success": "Success"
+  },
+  "header": {
+    "title": "UIT-AIClub SmartExtract",
+    "subtitle": "AI-Powered Document Processing Demo"
+  },
+  "homepage": {
+    "heroTitle": "Transform Your Document Processing",
+    "heroSubtitle": "Harness the power of AI to extract information, convert formats, and enhance your PDF documents with cutting-edge technology.",
+    "tryNow": "Try Now"
+  },
+  "features": {
+    "extraction": {
+      "title": "Information Extraction",
+      "description": "Extract key data from administrative documents automatically using AI"
+    },
+    "conversion": {
+      "title": "PDF to Word Conversion", 
+      "description": "Convert PDF documents to editable Word format while preserving formatting"
+    },
+    "textlayer": {
+      "title": "Add Text Layer",
+      "description": "Make PDFs searchable with OCR technology by adding text layers"
+    }
+  },
+  "fileUpload": {
+    "title": "Upload Document",
+    "dropText": "Drop your PDF file here or",
+    "browseFiles": "Browse Files"
+  },
+  "sampleFiles": {
+    "title": "Or Select Sample File",
+    "placeholder": "Choose a sample document"
+  },
+  "extraction": {
+    "pageTitle": "Information Extraction",
+    "pageDescription": "Extract key data from administrative documents automatically using AI",
+    "cardTitle": "Information Extraction from Administrative Documents",
+    "cardDescription": "Extract key information from administrative documents automatically using AI",
+    "extractButton": "Extract Information",
+    "extracting": "Processing...",
+    "startingExtraction": "Starting extraction...",
+    "resultsTitle": "Extraction Results",
+    "originalPdfPreview": "Original PDF Preview",
+    "extractedInformation": "Extracted Information",
+    "confidence": "Confidence",
+    "downloadResults": "Download Results as JSON",
+    "threshold": "Threshold",
+    "thresholdDescription": "Confidence threshold for extraction (0 = low confidence, 1 = high confidence)",
+    "useCorrector": "Use Text Corrector",
+    "useCorrectorDescription": "Apply automatic text correction to improve extraction accuracy",
+    "pleaseSelectFile": "Please select or upload a file"
+  },
+  "conversion": {
+    "pageTitle": "PDF to Word Conversion",
+    "pageDescription": "Convert PDF documents to editable Word format while preserving formatting",
+    "cardTitle": "PDF to Word Conversion",
+    "cardDescription": "Convert PDF documents to editable Word format while preserving formatting",
+    "convertButton": "Convert to Word",
+    "converting": "Converting...",
+    "startingConversion": "Starting conversion...",
+    "originalPdfPreview": "Original PDF Preview",
+    "convertedWordPreview": "Converted Word Preview",
+    "wordDocumentPreview": "Word document preview will appear here",
+    "conversionCompleted": "Conversion completed successfully",
+    "wordDocumentReady": "Word document is ready for download",
+    "converted": "Converted",
+    "pleaseSelectFile": "Please select or upload a file"
+  },
+  "textlayer": {
+    "pageTitle": "Add Text Layer",
+    "pageDescription": "Make PDFs searchable with OCR technology by adding text layers",
+    "cardTitle": "Add Text Layer to PDF",
+    "cardDescription": "Add searchable text layer to existing PDF documents using OCR technology",
+    "addTextLayerButton": "Add Text Layer",
+    "addingTextLayer": "Adding Text Layer...",
+    "startingProcessing": "Starting processing...",
+    "originalPdfPreview": "Original PDF Preview",
+    "enhancedPdfPreview": "Enhanced PDF Preview",
+    "enhancedPdfWillAppear": "Enhanced PDF with text layer will appear here",
+    "before": "Before",
+    "after": "After",
+    "originalPdf": "Original PDF",
+    "enhancedPdf": "Enhanced PDF",
+    "imageBasedContent": "Image-based content, not searchable",
+    "searchableTextLayer": "Searchable text layer added",
+    "downloadEnhancedPdf": "Download Enhanced PDF",
+    "searchable": "Searchable",
+    "ocrComplete": "OCR Complete",
+    "pleaseSelectFile": "Please select or upload a file"
+  },
+  "footer": {
+    "copyright": "© 2024 UIT-AIClub SmartExtract - AI-Powered Document Processing Demo"
+  },
+  "errors": {
+    "fileUploadFailed": "File upload failed",
+    "processingFailed": "Processing failed",
+    "noTaskId": "No task ID received",
+    "statusCheckFailed": "Failed to check status",
+    "browserNotSupported": "Your browser doesn't support PDF preview",
+    "previewNotAvailable": "PDF preview not available"
+  }
+} 
