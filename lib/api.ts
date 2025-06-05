@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://192.168.20.150/document_api'
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://aiclub.uit.edu.vn/gpu/document_api/ocr_extract'
 
 export const apiClient = axios.create({
   baseURL: API_BASE_URL,
