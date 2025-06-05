@@ -30,13 +30,13 @@ interface LanguageProviderProps {
 }
 
 export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
-  const [language, setLanguage] = useState<Language>('en');
+  const [language, setLanguage] = useState<Language>('vi');
   const [translations, setTranslations] = useState<Translations>({});
 
   useEffect(() => {
     const loadTranslations = async () => {
       try {
-        const response = await fetch(`/locales/${language}.json`);
+        const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/locales/${language}.json`);
         const data = await response.json();
         setTranslations(data);
       } catch (error) {

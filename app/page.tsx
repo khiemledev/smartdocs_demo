@@ -74,7 +74,7 @@ export default function HomePage() {
           {features.map((feature) => {
             const Icon = feature.icon
             return (
-              <Card key={feature.id} className="border-gray-200 hover:shadow-lg transition-shadow">
+              <Card key={feature.id} className="border-gray-200 hover:shadow-lg transition-shadow flex flex-col justify-between">
                 <CardHeader>
                   <div className={`w-12 h-12 rounded-lg bg-gradient-to-r ${feature.color} flex items-center justify-center mb-4`}>
                     <Icon className="w-6 h-6 text-white" />

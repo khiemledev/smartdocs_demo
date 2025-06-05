@@ -186,7 +186,7 @@ export default function ConversionPage() {
                 muted
                 className="rounded-lg border border-gray-200 shadow-sm"
               >
-                <source src="/videos/pdf_to_doc.mp4" type="video/mp4" />
+                <source src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/videos/pdf_to_doc.mp4`} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
