@@ -30,6 +30,8 @@ services:
         - NEXT_PUBLIC_BASE_PATH=${NEXT_PUBLIC_BASE_PATH:-}
     ports:
       - "3000:3000"
+    volumes:
+      - ./public:/app/public:ro
     environment:
       - NODE_ENV=production
       - NEXT_TELEMETRY_DISABLED=1
